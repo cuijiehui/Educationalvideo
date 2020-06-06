@@ -11,13 +11,13 @@ import androidx.recyclerview.widget.RecyclerView
 /**
  * @author cui
  * @data 2020/4/1
- * Description:
+ * Description: 适配器例子
  */
 class CommonRecyclerAdapter<T>(context: Context,
                                layoutInflater: LayoutInflater
                                ) : RecyclerView.Adapter<CommonRecyclerAdapter.CommonViewHolder<T>>() {
-    lateinit var context : Context
-    lateinit var layoutInflater: LayoutInflater
+    var context : Context
+    var layoutInflater: LayoutInflater
     var layoutId :Int = 0
     var variableId :Int = 0
     var lists : List<T> = ArrayList<T>()

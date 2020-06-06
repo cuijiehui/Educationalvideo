@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <cn.jzvd.JzvdStd
+            android:id="@+id/videoplayer"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/cffffff"
+                >
+            <TextView
+                    android:id="@+id/video_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="作者信息"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/c000000"
+                    />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -11,9 +11,9 @@ import com.bumptech.glide.Glide
  * Description:
  */
 class Goods (price: String ,title : String , img :  String): BaseObservable(){
-    lateinit var price : String
-    lateinit var title : String
-    lateinit var img : String
+     var price : String
+     var title : String
+     var img : String
     init {
         this.price= price
         this.title= title
